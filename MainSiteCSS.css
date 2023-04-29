@@ -1,13 +1,19 @@
-        /* BACKGROUND */
+		/* IMPORTS */
+		@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+		/* BACKGROUND */
         body {
 			background-color: #0d0517;
             background-image: url("images/onthefourth.png");
 			background-repeat: no-repeat;
+			background-attachment: fixed;
             margin-top: 0px;
             margin-left: 0px;
             margin-right: 10px;
-			background-position: top;
-			background-size: 100%;
+		/*	background-position: top; */
+	    	background-size: 100%;
           }
         /* BACKGROUND END */
 
@@ -115,23 +121,99 @@
         /* TOP MENU END */
 
 		/* INFO SECTION 1 */
-
 #infosect {
-	border: 2px solid #1C6EA4;
+	border: 3px solid #B067EB;
 	float:left;
-	background:white;
+	background: hsla(289, 4%, 98%, 0.9);
 	margin-left:100px;
 	margin-top:20px;
 	padding:20px;
-	max-width:500px;
+	max-width:40%;
+	margin-bottom:30px;
+}
+
+/* LATEST UPDATE */
+	#latestupdate {
+		/* border-left: 5px solid #B067EB;
+		-webkit-box-shadow: 5px 5px 0px 5px #000000; 
+		box-shadow: 5px 5px 0px 5px #000000; */
+		border: 5px solid #B067EB;
+		border-radius: 15px 0px 0px 0px;
+		float:right;
+		background: hsla(289, 4%, 98%, 0.9);
+		margin-right:50px;
+		margin-top:-30px;
+		margin-bottom:20px;
+		padding-top:0px;
+		padding-bottom:20px;
+		padding-right: 20px;
+		padding-left:50px;
+		}
+
+.updateImage {
+	border: 5px solid #0b0246fb;
+	height: 260px;
+	width: 250px;
+	float:right;
+	-webkit-box-shadow: -5px 5px 5px 1px rgba(199,156,239,0.69); 
+	box-shadow: 5px 1px 5px 1px #1f1081a9;
+}
+.funkyfresh {
+	font-family: 'Vina Sans', cursive;
+	font-size:55px;
+	text-align:right;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #120569;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	color: #fff467;
+	padding-right:30px;
+}
+.updateInfo {
+	font-family:'DM Sans', sans-serif;
+	font-size:18px;
+	text-align:center;
+}
+/* LATEST UPDATE END */
+
+/* (MAIN) TEXT STYLES */
+.mainText {
+	font-family:'DM Sans', sans-serif;
+	font-size:15px;
+	text-align:left;
+}
+/* TEXT STYLES END */
+
+
+/* PAGES */
+#pageControls {
+	border: 3px solid #451968;
+	border-radius: 15px 15px 15px 15px;
+	float:right;
+	background: hsla(274, 33%, 19%, 0.781);
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:6px;
+	padding-bottom:3px;
+	padding-right: 6px;
+	padding-left:10px;
+	width:25%;
+	margin-right:30px;
+	font-family:'DM Sans', sans-serif;
 	}
 
-#idkbutnextsect {
-	border: 2px solid #1C6EA4;
-	float:right;
-	background:white;
-	margin-right:100px;
-	margin-top:-50px;
-	padding:20px;
-	max-width:500px;
-	}
+.pageInfo {
+	font-size:18px;
+	padding-top:10px;
+	padding-left:20px;
+	color:hsla(300, 7%, 97%, 0.9);
+	-webkit-text-stroke-width:0.5px;
+	-webkit-text-stroke-color: #120569;
+}
+
+.pageCap {
+	font-size:16px;
+	padding-left:10px;
+	-webkit-text-stroke-width:0.5px;
+	-webkit-text-stroke-color: #120569;
+	color: hsla(300, 7%, 97%, 0.9);
+}
