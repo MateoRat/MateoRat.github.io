@@ -2,6 +2,8 @@
 		@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+		@font-face { font-family: VCRMono; src: url('images/VCR_OSD_MONO_1.001.ttf');}
+		@font-face { font-family: Teletactile; src: url('images/Teletactile-3zavL.ttf');}
 
 		/* BACKGROUND */
         body {
@@ -129,7 +131,7 @@
 	float:left;
 	background: hsla(289, 4%, 98%, 0.9);
 	margin-left:100px;
-	margin-top:20px;
+	margin-top:10px;
 	padding:20px;
 	max-width:40%;
 	margin-bottom:0px;
@@ -140,6 +142,7 @@
 	margin-left:100px;
 	margin-top:0px;
 	padding:20px;
+	padding-top:5px;
 	max-width:40%;
 	margin-bottom:0px;
 }
@@ -166,22 +169,23 @@
 		margin-bottom:20px;
 		padding-top:0px;
 		padding-bottom:20px;
-		padding-right: 20px;
-		padding-left:50px;
+		padding-right: 15px;
+		padding-left:30px;
 		}
 
 .updateImage {
 	border: 5px solid #0b0246fb;
-	height: 260px;
-	width: 250px;
+	height: 276px; /* originally 260, below 250 */
+	width: 265px;
 	float:right;
 	-webkit-box-shadow: -5px 5px 5px 1px rgba(199,156,239,0.69); 
 	box-shadow: 5px 1px 5px 1px #1f1081a9;
 }
 
 .updateInfo {
-	font-family:'DM Sans', sans-serif;
-	font-size:18px;
+	/* font-family:'DM Sans', sans-serif; */
+	font-family: 'VCRMono';
+	font-size:18px; /* originally 18px */
 	text-align:center;
 }
 /* LATEST UPDATE END */
@@ -200,7 +204,8 @@
 	padding-top:0px;
 	padding-bottom:20px;
 	padding-right: 20px;
-	padding-left:50px;
+	padding-left:20px;
+	max-width:35%;
 	}
 
 /* (MAIN) TEXT STYLES */
@@ -210,14 +215,24 @@
 	text-align:left;
 }
 .funkyfresh {
-	font-family: 'Vina Sans', cursive;
-	font-size:55px;
+	/* font-family: 'Vina Sans', cursive; */
+	font-family: 'Teletactile'; /* FORMER: VCRMono */
+	font-size:45px; /* 55 px original */
+	font-stretch:50%;
 	text-align:right;
 	-webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color: #120569;
 	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 	color: #fff467;
-	padding-right:30px;
+	padding-right:30px; /* 30 original */
+	padding-top:10px;
+}
+
+.socials {
+	font-family: 'Teletactile';
+	font-size:15px;
+	color: hsla(289, 4%, 98%, 0.9);
+	text-align:center;
 }
 /* TEXT STYLES END */
 
