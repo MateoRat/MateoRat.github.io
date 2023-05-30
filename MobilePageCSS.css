@@ -1,0 +1,20 @@
+		/* IMPORTS */
+		@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+		@font-face { font-family: VCRMono; src: url('images/VCR_OSD_MONO_1.001.ttf');}
+		@font-face { font-family: Teletactile; src: url('images/Teletactile-3zavL.ttf');}
+
+		/* BACKGROUND */
+        body {
+			background-color: #0d0517;
+            background-image: url("images/onthefourth.png");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 10px;
+		/*	background-position: top; */
+	    	background-size: 100%;
+          }
+        /* BACKGROUND END */
