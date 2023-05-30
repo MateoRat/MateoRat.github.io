@@ -176,8 +176,8 @@
 
 .updateImage {
 	border: 5px solid #0b0246fb;
-	height: 276px; /* originally 260, below 250 */
-	width: 265px;
+	height: 13%; /* originally 260, below 250 */ /*276 px */
+	/* width: 265px; */
 	float:right;
 	-webkit-box-shadow: -5px 5px 5px 1px rgba(199,156,239,0.69); 
 	box-shadow: 5px 1px 5px 1px #1f1081a9;
