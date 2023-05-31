@@ -6,7 +6,7 @@
 		@font-face { font-family: Teletactile; src: url('images/Teletactile-3zavL.ttf');}
 
 /* BACKGROUND */
-body {
+/* body {
     background-color: #171619;
     background-image: url("images/HappiestDay.gif");
     background-repeat: no-repeat;
@@ -14,7 +14,14 @@ body {
     margin-top: 0px;
     margin-left: 0px;
 	background-position: center;
-    background-size: 100%;
+    background-size: fit;
+  } */
+  body { 
+    background: url(images/HappiestDay.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 /* BACKGROUND END */
 
