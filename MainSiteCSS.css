@@ -271,3 +271,27 @@
 	-webkit-text-stroke-color: #120569;
 	color: hsla(300, 7%, 97%, 0.9);
 }
+
+@media only screen and (max-device-width: 480px) {
+	#mobileUsers {
+		margin-top:2%;
+		max-width:70%;
+		margin:auto;
+		border: 3px solid #B067EB;
+		background: hsla(289, 4%, 98%, 0.9);
+		padding:2px;
+	}
+	
+	.mobileWarning {
+		color:black;
+		font-family:'DM Sans', sans-serif;
+		font-size:11px;
+		text-align:left;
+	}
+}
+
+@media (min-device-width: 482px) {
+	.mobileWarning {
+	display: none;
+	}
+}
