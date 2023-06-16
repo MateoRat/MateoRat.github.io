@@ -121,6 +121,56 @@
 }
         /* TOP MENU END */
 
+        /* HELL (AKA COLLAPSABLES) */
+.butts > input[type="checkbox"] {
+position: absolute;
+left: -100vw;
+}
+.butts .content {
+overflow-y: hidden;
+height: 0;
+transition: height 0.3s ease;
+}
+.butts > input[type="checkbox"]:checked ~ .content {
+height: auto;
+overflow: visible;
+}
+.butts label {
+display: block;
+}
+        /* STYLING */
+
+.butts > input[type="checkbox"]:checked ~ .content {
+	/* background: #0d0c0ec7;
+	border:5px solid #665169fa;
+	border-radius:40px 40px 40px 0px;
+	max-width:60%;
+	min-width:40%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px; */
+	max-width:65%;
+	margin:auto;
+	margin-top:-10px;
+}
+
+.butts label {
+cursor: pointer;
+background: #17141a;
+padding:20px;
+border-radius: 40px;
+width:fit-content;
+margin-bottom:7px
+}
+
+.butts label:hover,
+.butts label:focus {
+background: grey;
+}
+
+
+  
 /* GOODIES MAIN PAGE */
 #goodiesPage {
 	border-left:10px double #171026D6;
@@ -134,7 +184,7 @@
 	background-image: url(images/goodiespagebackground.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	max-width:65%;
+	max-width:72%;
 	padding:30px;
 	background-size: 100%;
 }
@@ -148,11 +198,10 @@
 .funkyfresh {
 	font-family: 'Teletactile';
 	font-size:55px;
-	text-align:left;
+	text-align:center;
 	-webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color: #120569;
 	color: #fff467;
-	padding-right:30px;
 }
 
 .mainPageText {
@@ -166,6 +215,23 @@
 	font-family:'DM Sans', sans-serif;
 	font-size:14px;
 	text-align:center;
-	color:#cbd4dffb;
+	color:#dfe6eefb;
+	background: #0d0c0ec7;
+	border:5px solid #665169fa;
+	border-radius:40px 40px 40px 0px;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+}
+
+.buttText {
+	font-family: 'Teletactile';
+	font-size:x-large;
+	text-align:center;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #120569;
+	color: #fff467;
+	padding-right:30px;
 }
 /* TEXT STYLES END */
