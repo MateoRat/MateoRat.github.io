@@ -5,8 +5,6 @@
 		@font-face { font-family: VCRMono; src: url('images/VCR_OSD_MONO_1.001.ttf');}
 		@font-face { font-family: Teletactile; src: url('images/Teletactile-3zavL.ttf');}
 
-/* BACKGROUND */
-
   body { 
     background: url(images/HappiestDay.gif) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -16,9 +14,9 @@
   }
 /* BACKGROUND END */
 
-.funkyfresh {
+.mobilefunkyfresh {
 	font-family: 'Teletactile';
-	font-size:75px;
+	font-size:420%;
 	text-align:center;
 	-webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color: #120569;
@@ -26,50 +24,52 @@
 	color: #fff467;
 }
 
-.missingText {
+.mobMissingText {
     font-family:'Teletactile';
-    font-size:30px;
+    font-size:120%;
     text-align:center;
     -webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color: #120569;
     color:white;
 }
 
-.extraText {
+.mobExtraText {
     font-family:'VCRMono';
-    font-size:20px;
+    font-size:normal;
     text-align:center;
     color:white;
 }
 
-.extraExtraText {
+.mobExtraExtraText {
     font-family:'VCRMono';
-    font-size:15px;
+    font-size:small;
     text-align:center;
     color:white;
     padding-top:20px;
 }
 
-#missing404 {
+#mobMissing404 {
     background: #0d0c0ec7;
     border:5px solid #665169fa;
     border-radius:40px 40px 40px 0px;
-    max-width:60%;
-    min-width:40%;
+    max-width:90%;
+    min-width:70%;
     margin-top:5%;
     margin-left:auto;
     margin-right:auto;
     padding-top:20px;
+    padding-left:5%;
+    padding-right:5%;
 }
 
-.theDoor {
+.mobDoor {
     text-align:left;
     padding-bottom:2px;
     padding-left:2px;
 }
 
-@media (min-device-width: 482px) {
-	#mobileView {
+@media (max-device-width: 483px) {
+	#desktopView {
 		display: none;
 	}
 }

@@ -134,9 +134,11 @@
 
 
 #mobileInfosect {
-	border: 2px solid #B067EB;
+	background: linear-gradient(to bottom,  #605870d3,  #453764b6);
+	border:2px solid #f5a7e19c; /* #665169d8 */
+	/* border: 2px solid #B067EB;
+	background: hsla(289, 4%, 98%, 0.9); */
 	margin:auto;
-	background: hsla(289, 4%, 98%, 0.9);
 	padding:5%;
 	max-width:70%;
 	margin-bottom:0px;
@@ -144,9 +146,11 @@
 }
 
 #mobileInfosectP2 {
-	border: 2px solid #B067EB;
+	background: linear-gradient(to bottom,  #605870d3,  #453764b6);
+	border:2px solid #f5a7e19c; /* #665169d8 */
+	/* border: 2px solid #B067EB;
+	background: hsla(289, 4%, 98%, 0.9); */
 	margin:auto;
-	background: hsla(289, 4%, 98%, 0.9);
 	padding:5%;
 	max-width:70%;
 	margin-bottom:0px;
@@ -157,6 +161,7 @@
 	font-family:'DM Sans', sans-serif;
 	font-size:small;
 	text-align:left;
+	color: rgb(239, 238, 247);
 }
 
 .mobileSocials {
