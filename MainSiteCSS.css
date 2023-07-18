@@ -262,6 +262,14 @@
 	text-align:center;
 }
 
+.keepThisBetweenUs {
+	font-family:'DM Sans', sans-serif;
+	font-size:15px;
+	text-align:left;
+	color: rgba(239, 238, 247, 0);
+	text-decoration: none;
+}
+
 a.mainLink:link {
 	color: #fff467;
 }

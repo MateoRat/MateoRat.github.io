@@ -1,0 +1,128 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('../../../MateoRat.github.io/images/VCR_OSD_MONO_1.001.ttf');}
+@font-face { font-family: Teletactile; src: url('../../../MateoRat.github.io/images/Teletactile-3zavL.ttf');}
+
+/* BACKGROUND */
+
+html,body {
+    height:100%;
+}
+
+body { 
+background: url(imsorry.gif) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin:0;
+padding:0;
+display: flex;
+flex-direction: column;
+}
+/* BACKGROUND END */
+
+html {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.funkyfresh {
+font-family: 'Teletactile';
+font-size:75px;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+color: #fff467;
+text-decoration:none;
+}
+
+.missingText {
+font-family:'Teletactile';
+font-size:30px;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+color:white;
+}
+
+.extraText {
+font-family:'VCRMono';
+font-size:20px;
+text-align:center;
+color:white;
+}
+
+.extraExtraText {
+font-family:'VCRMono';
+font-size:15px;
+text-align:center;
+color:white;
+padding-top:20px;
+}
+
+#page {
+    position:relative;
+    height:100%;
+}
+
+#missing404 {
+background: #0d0c0ec7;
+border:5px solid #665169fa;
+border-radius:40px 40px 40px 0px;
+max-width:60%;
+min-width:40%;
+margin-top:5%;
+margin-left:auto;
+margin-right:auto;
+padding-top:20px;
+}
+
+#videoCont {
+background: #0d0c0ec7;
+border:2px solid #665169fa;
+border-radius:40px 40px 0px 40px;
+width:50%;
+margin-top:5%;
+margin-left:auto;
+margin-right:auto;
+padding:20px;
+}
+
+#videoFrame {
+    border:3px solid #665169fa;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#audio {
+    text-align:right;
+    padding-bottom:2px;
+    padding-right:2px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#door {
+    text-align:left;
+    padding-bottom:2px;
+    padding-left:2px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
