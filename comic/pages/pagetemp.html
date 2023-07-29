@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PAGE NAME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../ComicCSS.css">
+<link rel="stylesheet" type="text/css" href="../MobileComicCSS.css">
+</head>
+
+<div id="desktopView">
+  <div class="music">
+    <audio controls autoplay loop>
+      <source src="https://cdn.discordapp.com/attachments/721851190115041324/1134640238443114526/Pizzaplex_Ambience.mp3" type="audio/mpeg">
+      Your browser does not support the music player!
+    </audio>
+    </div>
+
+<!-- MENUUUU !!! -->
+<nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+      <li><a href='http://'>Homepage</a></li>
+      <li><a class='dropdown-arrow' href='http://'>Read the Comic!</a>
+        <ul class='sub-menus'>
+          <li><a href='http://'>All Volumes</a></li>
+          <li><a href='http://'>Volume One</a></li>
+        </ul>
+      </li>
+      <li><a href='https://slashjay.fandom.com/wiki/The_Official_Slashjay_Wiki'>The Wiki</a></li>
+      <li><a class='dropdown-arrow' href='http://'>Development & More</a>
+        <ul class='sub-menus'>
+          <li><a href='http://'>Goodies :)</a></li>
+          <li><a href='http://'></a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+      <!-- LOGO -->
+  <p style="text-align:right; margin-right:50px; margin-top:-50px;margin-bottom:2px;"><img src="../images/slashjaylogo.png"alt="Slashjay Logo"width="300"></p>
+      <!-- LOGO END -->
+
+<!-- IF NEXT PAGE IS NOT AVALIBLE: -->
+<div id='pageControls'><div class='pageInfo'>Volume # - Page #</div>
+<div class='pageCap'>Caption (if applicable)<br>
+<p style="text-align:center;"><a href='volpg'>
+<img src="../images/prevButton.png"width="100">
+<!-- NEXT PAGE -->
+</a><a href='volpg'><img src="../images/nextButton.png"width="100"><br></a>
+Prev Page /    \ Next Page</p></div></div>
+<!-- NEXT PAGE NOT AVALIBLE -->
+<!-- </a><img src="../images/noNext.png"width="100"><br>/ Previous Page /<br>
+Seems the next page isn't out yet...</p></div></div> -->
+
+<!-- REPLACE IMAGE W/ COMIC IMAGE -->
+<p style="text-align:center;margin-left:100px;">
+    <img src="ComicGuidelines.png"alt="Page 2"width="60%">
+    </p>
+
+  </div>
+<!-- DESKTOP END-->
+
+
+
+
+
+<!-- MOBILE HOME -->
+<div id="mobileView">
+  <!-- MENUUUU !!! -->
+<div id="mobileMenuContain"><div id="mobTopMenu"><section class="mobileMenu">
+  <input type="checkbox" name="collapse" id="menuButt">
+    <div class="mainMenu"><label for="menuButt">Open Menu</label></div>
+
+  <div class="content"> <section class="innerDrop">
+      <input type="checkbox" name="collapse" id="comic">
+      <div class="links"><label for="comic">Read the Comic</label></div>
+      <div class="content"> All Volumes<br>
+        Volume 1</div>
+      </section>
+
+      <div class="links">The Wiki</div>
+      <div class="links">Bark</div>
+        </div>
+    </section>
+  </div>
+</div>
+<!-- LOGO -->
+<p style="text-align:left; margin-top:-50px;margin-bottom:0px;"><img src="../images/slashjaylogo.png"alt="Slashjay Logo"width="50%"></p>
+<!-- LOGO END -->
+<br>
+<div class="mobComicPage">
+  <img src="ComicGuidelines.png"alt="Page #" width=100%;></div>
+
+  <!-- IF NEXT PAGE IS NOT AVALIBLE: -->
+<div id='mobPageControls'><div class='pageInfo'>Volume # - Page #</div>
+<div class='mobPageCap'>Caption (if applicable)<br>
+<p style="text-align:center;"><a href='volpg'>
+<img src="../images/prevButton.png"width="80">
+<!-- NEXT PAGE -->
+</a><a href='volpg'><img src="../images/nextButton.png"width="80"><br></a>
+Prev Page /    \ Next Page</p></div></div>
+<!-- NEXT PAGE NOT AVALIBLE -->
+<!-- </a><img src="../images/noNext.png"width="80"><br>/ Previous Page /<br>
+Seems the next page isn't out yet...</p></div></div> -->
+</div>
