@@ -53,11 +53,33 @@ Prev Page /    \ Next Page</p></div></div>
 <!-- </a><img src="../images/noNext.png"width="100"><br>/ Previous Page /<br>
 Seems the next page isn't out yet...</p></div></div> -->
 
-<!-- REPLACE IMAGE W/ COMIC IMAGE -->
+<!-- TRIGGER WARNINGS -->
+<style>
+  #deskPage {
+            display: none;
+        }
+</style>
+<button type="button" onclick="show()" id="deskTW">
+  <p style="text-align:center;">
+    <img src="https://media.discordapp.net/attachments/721851190115041324/1144046714366464050/Trigger_Warning.png?width=395&height=558"alt="CONTENT WARNING"width="100%">
+    </p>
+</button>
 <p style="text-align:center;margin-left:100px;">
-    <img src="ComicGuidelines.png"alt="Page 2"width="60%">
+    <img id="deskPage" src="ComicGuidelines.png"alt="Page 2"width="60%" />
     </p>
 
+
+<!-- TRIGGER WARNING -->
+<script>
+  function show() {
+      /* Access image by id and change
+      the display property to block*/
+      document.getElementById('deskPage')
+          .style.display = "block";
+      document.getElementById('deskTW')
+          .style.display = "none";
+  }
+</script>
   </div>
 <!-- DESKTOP END-->
 

@@ -189,6 +189,21 @@
 	color: hsla(300, 7%, 97%, 0.9);
 }
 
+showTWs {
+	background:white;
+}
+
+button {
+	background:none;
+	border:none;
+	padding:0%;
+	margin:auto;
+	text-align:center;
+	float:center;
+	align-self:center;
+	padding-left:40%;
+}
+
 
 @media (min-device-width: 482px) {
 	#mobileView {

@@ -142,7 +142,7 @@ body {
     }
     
     #left {
-        max-width:40%;
+        max-width:35%;
         display:inline;
         float:left;
         padding-left:5%;
@@ -165,9 +165,9 @@ body {
     }
 
     .volImage {
-        width:64%;
-        display:inline;
+        width:65%;
         float:left;
+        padding-right:3%;
     }
 
     .pages {
@@ -178,7 +178,7 @@ body {
     }
     
     #right {
-        max-width:40%;
+        width:35%;
         display:inline;
         float:right;
         padding-right:5%;
@@ -201,9 +201,13 @@ body {
 .mainText {
 	font-family:'DM Sans', sans-serif;
 	font-size:large;
-	text-align:left;
+	text-align:justify;
+    text-align:left;
 	color: rgb(239, 238, 247);
 	text-decoration: none;
+    padding-right:5%;
+    padding-left:5%;
+    padding-bottom:5%;
 }
 .pagePart {
 	font-family:'Teletactile', sans-serif;
@@ -211,8 +215,8 @@ body {
 	text-align:left;
 	color: rgb(239, 238, 247);
 	text-decoration: none;
-    padding-left:10%;
-    margin-bottom:-15%;
+    padding-left:10px;
+    padding-bottom:2%;
 }
 .funkyfresh {
 	/* font-family: 'Vina Sans', cursive; */
