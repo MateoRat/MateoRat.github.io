@@ -161,16 +161,30 @@
 	border-radius: 15px 15px 15px 15px;
 	float:right;
 	background: hsla(274, 33%, 19%, 0.781);
-	margin-top:20px;
-	margin-bottom:20px;
-	padding-top:6px;
-	padding-bottom:3px;
-	padding-right: 6px;
-	padding-left:10px;
-	width:25%;
-	margin-right:30px;
-	font-family:'DM Sans', sans-serif;
+	width:100%;
 	}
+
+	#sideThing {
+		float:right;
+		margin-top:20px;
+		margin-bottom:20px;
+		padding-top:6px;
+		padding-bottom:3px;
+		padding-right: 6px;
+		padding-left:10px;
+		width:25%;
+		margin-right:30px;
+		font-family:'DM Sans', sans-serif;
+		}
+
+#music {
+	margin:auto;
+	text-align:center;
+	font-size:x-small;
+	align-items:center;
+	float:center;
+	color:white;
+}
 
 .pageInfo {
 	font-size:18px;

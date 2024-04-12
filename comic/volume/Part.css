@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+		@font-face { font-family: VCRMono; src: url('images/VCR_OSD_MONO_1.001.ttf');}
+		@font-face { font-family: Teletactile; src: url('images/Teletactile-3zavL.ttf');}
+
+#leftSideStuff {
+    float:left;
+    padding-top:10%;
+    padding-bottom:20%;
+    align-content:center;
+    width:20%;
+    margin-left:6.5%;
+    margin-right:6%;
+}
+
+.pageFlip {
+    border: 3px solid #451968;
+	border-radius: 15px 15px 15px 15px;
+	margin:auto;
+	background: hsla(274, 33%, 19%, 0.781);
+	width:100%;
+}
+
+.extraInfo {
+    border: 3px solid #451968;
+	border-radius: 10px 10px 10px 10px;
+	margin:auto;
+	background: hsla(274, 33%, 19%, 0.781);
+	width:110%;
+    padding:2%;
+    color:white;
+    font-family:'DM Sans', sans-serif;
+}
+
+#rightSideStuff {
+    float:right;
+    padding-top:10%;
+    padding-bottom:20%;
+    align-content:center;
+    width:20%;
+    margin-right:6.5%;
+    margin-left:6%;
+}
+
+#volumeCover {
+    margin:0;
+}
+
+.slaytbh {
+	/* font-family: 'Vina Sans', cursive; */
+	font-family: 'Teletactile'; /* FORMER: VCRMono */
+	font-size:45px; /* 55 px original */
+	font-stretch:50%;
+	text-align:center;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #120569;
+	/* text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
+	text-shadow: 2px 2px 0 #858b97, 4px 4px 0 #272e3ddc;
+	color: #fff467;
+	padding-right:30px; /* 30 original */
+	padding-top:10px;
+	text-decoration: none;
+}
+
+#pages {
+    border: 3px solid #451968;
+	border-radius: 15px 15px 15px 15px;
+	margin:auto;
+	background: hsla(274, 33%, 19%, 0.781);
+    max-width:70%;
+    width:fit-content;
+    padding:1%;
+    margin-bottom:1%;
+    color:white;
+    font-family:'DM Sans', sans-serif;
+    word-spacing:1.5em;
+}
