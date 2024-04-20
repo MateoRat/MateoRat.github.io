@@ -28,7 +28,7 @@
 	margin:auto;
 	background: hsla(274, 33%, 19%, 0.781);
 	width:110%;
-    padding:2%;
+    padding:4%;
     color:white;
     font-family:'DM Sans', sans-serif;
 }
@@ -68,11 +68,81 @@
 	border-radius: 15px 15px 15px 15px;
 	margin:auto;
 	background: hsla(274, 33%, 19%, 0.781);
-    max-width:70%;
+    max-width:80%;
     width:fit-content;
     padding:1%;
     margin-bottom:1%;
     color:white;
     font-family:'DM Sans', sans-serif;
     word-spacing:1.5em;
+    line-height:1.5em;
+}
+
+#parts {
+    border: 3px solid #451968;
+	border-radius: 15px 15px 15px 15px;
+	margin:auto;
+	background: hsla(274, 33%, 19%, 0.781);
+    max-width:80%;
+    width:fit-content;
+    padding:1%;
+    margin-bottom:1%;
+    color:rgba(204, 204, 204, 0.568);
+    font-family:'DM Sans', sans-serif;
+    line-height:2em;
+    align-content:center;
+    text-align:center;
+    font-size:x-large;
+}
+
+a.page:link, a.page:visited {
+    border: 2px solid rgb(11, 0, 12);
+    border-radius: 15px;
+    background:#160918b7;
+    color:rgb(214, 197, 216);
+    padding-left:1em;
+    padding-right:1em;
+    text-decoration: none;
+    text-align:center;
+    margin:auto;
+}
+
+a.page:hover {
+    border: 2px solid rgb(11, 0, 12);
+    border-radius: 15px;
+    background:#110713cb;
+    color:rgb(236, 220, 238);
+    padding-left:1em;
+    padding-right:1em;
+    font-size:0.8em;
+    text-decoration: none;
+    text-align:center;
+    margin:auto;
+}
+
+a.part:link, a.part:visited {
+    border: 2px solid rgb(11, 0, 12);
+    border-radius: 15px;
+    background:#160918b7;
+    color:rgb(214, 197, 216);
+    padding-left:1em;
+    padding-right:1em;
+    text-decoration: none;
+}
+
+a.part:hover {
+    border: 2px solid rgb(11, 0, 12);
+    border-radius: 15px;
+    background:#110713cb;
+    color:rgb(236, 220, 238);
+    padding-left:1em;
+    padding-right:1em;
+    font-size:0.8em;
+    text-decoration: none;
+}
+
+a.plainlink:link, a.plainlink:hover, a.plainlink:visited {
+    color:white;
+    font-family:'DM Sans', sans-serif;
+    text-decoration:none;
 }

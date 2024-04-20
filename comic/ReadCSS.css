@@ -138,15 +138,14 @@ body {
         margin:auto;
         margin-top:2%;
         overflow:hidden;
-        position: relative
     }
     
     #left {
         max-width:35%;
-        display:inline;
         float:left;
-        padding-left:5%;
         padding-top:2%;
+        margin-top:1%;
+        margin-left:0%;
     }
     .gay1 {
         background: linear-gradient(to bottom,  #605870d3,  #453764b6);
@@ -171,7 +170,6 @@ body {
     }
 
     .pages {
-        display:inline;
         float:left;
         padding:2%;
         width:30%;
@@ -179,22 +177,33 @@ body {
     
     #right {
         width:35%;
-        display:inline;
         float:right;
         padding-right:5%;
     }
 
+#top {
+    height:fit-content;
+    margin-bottom:1%;
+    padding:0%;
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:0%;
+    width:100%;
+    overflow:hidden;
+}
 #start {
-    padding:-5%;
     float:right;
-    display:inline;
     background: #2c155075;
     border:2px solid #d4c5ec4b;
-    width:30%;
+    width:80%;
     border-bottom-left-radius:70px;
     padding-left:5%;
     padding-bottom:2%;
-    margin-right:-5%;
+    margin-bottom:5%;
+}
+
+#fred {
+    float:left;
 }
 
 /* (MAIN) TEXT STYLES */
