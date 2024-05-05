@@ -78,6 +78,9 @@ padding-top:20px;
     position:relative;
     text-align:center;
     height:95%;
+    font-size:normal;
+    color:white;
+    font-family:'DM Sans';
 }
 
 .text {

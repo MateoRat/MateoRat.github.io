@@ -170,61 +170,61 @@ color: #E3A7FC;
 }
 
 #evan {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102683008192662/Evan_SquishySprite.png');
+    background-image: url('../images/pixelsprites/EvanSprite.png');
     height:165px;
     width:120px;
     display:inline;
     float:right;
 }
 #evan:hover {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102151166234714/Evan_Cry.gif');
+    background-image: url('../images/pixelsprites/EvanSprite.gif');
 }
 #mike {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102683670884443/Mike_SquishySprite.png');
+    background-image: url('../images/pixelsprites/MikeSprite.png');
     height:165px;
     width:120px;
     display:inline;
     float:right;
 }
 #charlie {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102682722971689/Charlie_SquishySprite.png');
+    background-image: url('../images/pixelsprites/CharlieSprite.png');
     height:165px;
     width:120px;
     display:inline;
     float:right;
 }
 #charlie:hover {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102150700683315/Charlie_Yippee.gif');
+    background-image: url('../images/pixelsprites/CharlieSprite.gif');
 }
 #vanessa {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102683905773598/Vanessa_SquishySprite.png');
+    background-image: url('../images/pixelsprites/VanessaSprite.png');
     height:165px;
     width:120px;
     display:inline;
     float:right;
 }
 #vanessa:hover {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102152986578944/Vanessa_Sigh.gif');
+    background-image: url('../images/pixelsprites/VanessaSprite.gif');
 }
 #gregory {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102683452772373/Greg_SquishySprite.png');
+    background-image: url('../images/pixelsprites/GregSprite.png');
     height:165px;
     width:120px;
     display:inline;
     float:right;
 }
 #gregory:hover {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102152546164877/Greg_Jump.gif');
+    background-image: url('../images/pixelsprites/GregSprite.gif');
 }
 #freddy {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102684123861082/Freddy_SquishySprite.png');
+    background-image: url('../images/pixelsprites/FreddySprite.png');
     height:165px;
     width:120px;
     display:inline;
     float:right;
 }
 #freddy:hover {
-    background-image: url('https://media.discordapp.net/attachments/721851190115041324/1124102152042860736/Freddy_Smile.gif');
+    background-image: url('../images/pixelsprites/FreddySprite.gif');
 }
 
 
@@ -236,6 +236,27 @@ color: #E3A7FC;
 	color: rgb(239, 238, 247);
 	text-decoration: none;
 }
+.boundText {
+	font-family:'DM Sans', sans-serif;
+	font-size:0.9em;
+	text-align:left;
+	color: rgb(239, 238, 247);
+	text-decoration: none;
+}
+
+ul.kill {
+    font-family:'DM Sans', sans-serif;
+	font-size:0.9em;
+	text-align:left;
+	color: rgb(239, 238, 247);
+	text-decoration: none;
+    line-height:0.8em;
+}
+
+ul.kill:not(:last-child), ul.kill:not(:first-child) {
+    line-height:normal;
+}
+
 .date {
     font-family:'DM Sans', sans-serif;
 	font-size:large;
@@ -248,7 +269,7 @@ color: #E3A7FC;
 .funkyfresh {
 	/* font-family: 'Vina Sans', cursive; */
 	font-family: 'Teletactile'; /* FORMER: VCRMono */
-	font-size:45px; /* 55 px original */
+	font-size:xx-large; /* 45 px original */
 	font-stretch:50%;
 	text-align:left;
 	-webkit-text-stroke-width:1px;

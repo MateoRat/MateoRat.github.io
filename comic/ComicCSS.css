@@ -228,3 +228,29 @@ button {
 .music {
 	display:none;
 }
+
+.fred, a.fred {
+	float:left;
+	text-align:left;
+	display:inline;
+	vertical-align:top;
+	margin-top: -11.5em;
+	rotate:200deg;
+	background-image: url("../images/ProbablyNotPossessed.png");
+	height: 114px;
+	width:108px;
+	margin-left:-1em;
+}
+
+a.fred:link, a.fred:visited {
+	float:left;
+	text-align:left;
+	display:inline;
+	vertical-align:top;
+	margin-top: -11.5em;
+	rotate:200deg;
+	background-image: url("../images/DefinitelyNotPossessed.gif");
+	height: 114px;
+	width:108px;
+	margin-left:-1em;
+}

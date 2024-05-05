@@ -141,18 +141,19 @@ body {
     }
     
     #left {
-        max-width:35%;
+        width:50%;
         float:left;
         padding-top:2%;
         margin-top:1%;
-        margin-left:0%;
     }
     .gay1 {
         background: linear-gradient(to bottom,  #605870d3,  #453764b6);
         border:2px solid #f5a7e19c;
-        width:100%;
-        margin:0%;
-        overflow:hidden;
+        width:75%;
+        margin:auto;
+        margin-top:0%;
+        margin-bottom:0%;
+        line-height:0%;
     }
     .gay2 {
         background: linear-gradient(to bottom,  #605870d3,  #453764b6);
@@ -164,9 +165,8 @@ body {
     }
 
     .volImage {
-        width:65%;
-        float:left;
-        padding-right:3%;
+        width:100%;
+        margin:auto;
     }
 
     .pages {
@@ -176,9 +176,10 @@ body {
     }
     
     #right {
-        width:35%;
+        width:50%;
         float:right;
-        padding-right:5%;
+        padding-top:2%;
+        margin-top:1%;
     }
 
 #top {
@@ -200,6 +201,22 @@ body {
     padding-left:5%;
     padding-bottom:2%;
     margin-bottom:5%;
+}
+
+a.start:link, a.start:visited {
+    float:right;
+    background: #2c155075;
+    border:2px solid #d4c5ec4b;
+    width:80%;
+    border-bottom-left-radius:70px;
+    padding-left:5%;
+    padding-bottom:2%;
+    margin-bottom:5%;
+    text-decoration:none;
+}
+
+a:link, a:visited {
+    text-decoration:none;
 }
 
 #fred {
@@ -232,7 +249,7 @@ body {
 	font-family: 'Teletactile'; /* FORMER: VCRMono */
 	font-size:xx-large; /* 55 px original */
 	font-stretch:50%;
-	text-align:left;
+	text-align:center;
 	-webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color: #120569;
 	/* text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
