@@ -189,3 +189,39 @@ h1 {
 		display: none;
 	}
 }
+
+a.mobNextPage, a.mobPrevPage {
+	height:3.84em;
+	width:5em;
+	overflow:hidden;
+	background-size:cover;
+	background-repeat:no-repeat;
+	image-rendering:pixelated;
+	display:inline-block;
+	margin:auto;
+	font-family:'VCRMono';
+	color:white;
+	text-decoration:none;
+}
+a.mobNextPage {
+	background-image: url('images/noNext.png');
+	image-rendering:pixelated;
+	text-align:left;
+	padding-left:1em;
+}
+a.mobNextPage:link {
+	background-image: url('images/nextButton.png');
+	image-rendering:pixelated;
+}
+a.mobPrevPage, a.mobPrevPage:link {
+	background-image:url('images/prevButton.png');
+	image-rendering:pixelated;
+	text-align:right;
+	padding-right:1em;
+}
+
+.mobPageButtons {
+	margin:auto;
+	text-align:center;
+	margin-top:1em;
+}

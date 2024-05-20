@@ -6,16 +6,6 @@
 @font-face { font-family: Teletactile; src: url('../images/Teletactile-3zavL.ttf');}
 
 /* BACKGROUND */
-body { 
-	background: url(../images/onthefourth.png) no-repeat center center fixed; 
-	background-color: #0d0517;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	margin: 0;
-	padding: 0;
-	}
 /* BACKGROUND END */
 
 h1 {
@@ -322,4 +312,14 @@ h1 {
 	#desktopView {
 		display: none;
 	}
+	body { 
+		background: url(../images/onthefourth.png) no-repeat center center fixed; 
+		background-color: #0d0517;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0;
+		padding: 0;
+		}
 }

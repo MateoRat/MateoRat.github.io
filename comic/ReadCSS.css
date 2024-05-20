@@ -6,17 +6,7 @@
 @font-face { font-family: Teletactile; src: url('../images/Teletactile-3zavL.ttf');}
 
 /* BACKGROUND */
-body {
-    background-color: #0d0517;
-    background-image: url("../images/onthefourth.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 10px;
-/*	background-position: top; */
-    background-size: 100%;
-  }
+
 /* BACKGROUND END */
 
 
@@ -273,8 +263,25 @@ a.funkyLink:link, a.funkyLink:hover, a.funkyLink:visited, a.funkyLink:active {
 	color: #fff467;
 }
 
-a.plain:link, a.plain:hover, a.plain:visited, a.plain:active {
+a.Mplain:link, a.plain:hover, a.plain:visited, a.plain:active {
 	text-decoration: none;
 	color: rgb(239, 238, 247);
 }
 /* TEXT STYLES END */
+
+@media (min-device-width: 482px) {
+	#mobileView {
+		display: none;
+	}
+	body {
+		background-color: #0d0517;
+		background-image: url("../images/onthefourth.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 10px;
+	/*	background-position: top; */
+		background-size: 100%;
+		}
+}

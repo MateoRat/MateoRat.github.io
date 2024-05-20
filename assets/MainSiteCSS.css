@@ -157,7 +157,7 @@
 }
 /* LATEST UPDATE */
 	#latestUpdate {
-		width:40%;
+		width:42%;
 		border-radius: 15px 0px 0px 0px;
 		float:left;
 		background: linear-gradient(to bottom,  #605870d3,  #453764b6);
@@ -182,7 +182,7 @@
 			color: #fff467;
 			margin-top:2%;
 			text-decoration: none;
-			font-size:2em;
+			font-size:3vw;
 			text-align:center;
 		}
 
@@ -198,11 +198,13 @@
 			margin-left:0%;
 			margin-right:0%;
 			text-align:center;
+			image-rendering:crisp-edges;
+			max-width:45%
 			}
 
 			a.screamingww, a.screamingww:link, a.screamingww:visited {
 				font-family: 'Teletactile';
-				font-size:1.8em;
+				font-size:2.5vw;
 				-webkit-text-stroke-width:1px;
 				-webkit-text-stroke-color: #120569;
 				text-shadow: 2px 2px 0 #858b97, 4px 4px 0 #272e3ddc;

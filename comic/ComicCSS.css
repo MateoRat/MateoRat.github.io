@@ -184,22 +184,21 @@
 	align-items:center;
 	float:center;
 	color:white;
+	font-family:'DM Sans', sans-serif;
 }
 
 .pageInfo {
-	font-size:18px;
+	font-size:1.5em;
 	padding-top:10px;
 	padding-left:20px;
 	color:hsla(300, 7%, 97%, 0.9);
-	-webkit-text-stroke-width:0.5px;
+	-webkit-text-stroke-width:0.2px;
 	-webkit-text-stroke-color: #120569;
 }
 
 .pageCap {
-	font-size:16px;
+	font-size:1em;
 	padding-left:10px;
-	-webkit-text-stroke-width:0.5px;
-	-webkit-text-stroke-color: #120569;
 	color: hsla(300, 7%, 97%, 0.9);
 }
 
@@ -253,4 +252,39 @@ a.fred:link, a.fred:visited {
 	height: 114px;
 	width:108px;
 	margin-left:-1em;
+}
+
+a.nextPage, a.prevPage {
+	height:5.12em;
+	width:7em;
+	overflow:hidden;
+	background-size:cover;
+	background-repeat:no-repeat;
+	image-rendering:pixelated;
+	display:inline-block;
+	margin:auto;
+	font-family:'VCRMono';
+	color:white;
+	text-decoration:none;
+}
+a.nextPage {
+	background-image: url('images/noNext.png');
+	image-rendering:pixelated;
+	text-align:left;
+	padding-left:1em;
+}
+a.nextPage:link {
+	background-image: url('images/nextButton.png');
+	image-rendering:pixelated;
+}
+a.prevPage, a.prevPage:link {
+	background-image:url('images/prevButton.png');
+	image-rendering:pixelated;
+	text-align:right;
+	padding-right:1em;
+}
+
+.pageButtons {
+	margin:auto;
+	text-align:center;
 }
