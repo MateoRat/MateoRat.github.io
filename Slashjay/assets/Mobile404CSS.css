@@ -1,0 +1,72 @@
+
+        body { 
+            background: url("https://download937.mediafire.com/6qpu7fpnzwpgUoQOjjTW9cwbyIJeDPl5pFuyZF91jpnzKqbM98jU87AyXeFq8kNn7wrO5_vcWeoQkSKoL6b9AmXBae7xdFWXe_O1JvXPR3R7frv4wy1Q9Ecuh8TlQcStmrJfjFec2cGCUOaUywqSxDiZdmRW3ogT63hYV2_qKh47O3g/gh7o8h6ldpb0mur/HappiestDay.gif") no-repeat center center fixed; 
+            background-color: #0d0517;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            }
+/* BACKGROUND END */
+
+.mobilefunkyfresh {
+	font-family: 'Teletactile';
+	font-size:420%;
+	text-align:center;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #120569;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	color: #fff467;
+}
+
+.mobMissingText {
+    font-family:'Teletactile';
+    font-size:120%;
+    text-align:center;
+    -webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #120569;
+    color:white;
+}
+
+.mobExtraText {
+    font-family:'VCRMono';
+    font-size:normal;
+    text-align:center;
+    color:white;
+}
+
+.mobExtraExtraText {
+    font-family:'VCRMono';
+    font-size:small;
+    text-align:center;
+    color:white;
+    padding-top:20px;
+}
+
+#mobMissing404 {
+    background: #0d0c0ec7;
+    border:5px solid #665169fa;
+    border-radius:40px 40px 40px 0px;
+    max-width:90%;
+    min-width:70%;
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.mobDoor {
+    text-align:left;
+    padding-bottom:2px;
+    padding-left:2px;
+}
+
+@media (max-device-width: 483px) {
+	#desktopView {
+		display: none;
+	}
+}

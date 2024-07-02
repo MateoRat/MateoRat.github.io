@@ -1,0 +1,12 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('../../../MateoRat.github.io/images/VCR_OSD_MONO_1.001.ttf');}
+@font-face { font-family: Teletactile; src: url('../../../MateoRat.github.io/images/Teletactile-3zavL.ttf');}
+
+
+.text {
+    text-align:center;
+    font-family:'VCRMono';
+}

@@ -1,0 +1,93 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('../images/VCR_OSD_MONO_1.001.ttf');}
+@font-face { font-family: Teletactile; src: url('../images/Teletactile-3zavL.ttf');}
+
+
+/* BACKGROUND END */
+
+#background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+}
+
+.mobilefunkyfresh {
+font-family: 'Teletactile';
+font-size:420%;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+color: #fff467;
+}
+
+.mobMissingText {
+font-family:'Teletactile';
+font-size:120%;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+color:white;
+}
+
+.mobExtraText {
+font-family:'VCRMono';
+font-size:normal;
+text-align:center;
+color:white;
+}
+
+.mobExtraExtraText {
+font-family:'VCRMono';
+font-size:small;
+text-align:center;
+color:white;
+padding-top:20px;
+}
+
+#mobMissing404 {
+height:100%;
+min-height:100%;
+background: #0d0c0ec7;
+border:5px solid #665169fa;
+border-radius:40px 40px 40px 0px;
+max-width:90%;
+min-width:70%;
+margin-top:0%;
+margin-left:auto;
+margin-right:auto;
+padding-top:20px;
+padding-left:5%;
+padding-right:5%;
+}
+
+.mobDoor {
+text-align:left;
+padding-bottom:2px;
+padding-left:2px;
+}
+
+@media (max-device-width: 483px) {
+    #desktopView {
+    display: none;
+    }
+    body {
+        background: url("https://download937.mediafire.com/wbphyj4ixhvg9t2daUYQJDrj27mHAa576sTjfh_7YqDXRGZXoPdG4_ihOIFj-3JTY-gxl_jwgnIXURnkKa57gQBNvkfGmnjkMlWqHUx1mvUJ0kPqL_evSoZmiWabY9hLPLBSIPJmUDpPKt0CrX0qRTGnaCvokRc3StRv614lvRn2Prw/gh7o8h6ldpb0mur/HappiestDay.gif") no-repeat center center fixed; 
+        background-color: #0d0517;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0;
+        margin-top:10%;
+        padding: 0;
+    }
+}

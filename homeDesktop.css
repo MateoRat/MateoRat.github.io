@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('assets/VCR_OSD_MONO_1.001.ttf');}
+@font-face { font-family: Teletactile; src: url('assets/Teletactile-3zavL.ttf');}
+
+#mainStuff {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1%;
+}
+
+#mainCard {
+    background: linear-gradient(to bottom,  #34143dea,  #1f082cee);
+    width:100%;
+    padding:2%;
+    border: solid 2px #d81ca9fb;
+    margin:auto;
+    font-family:"Castoro", serif;
+    color:white;
+    height:fit-content;
+    display: inline-block;
+}
+
+#leftSide {
+    float:left;
+    width:35%;
+    margin-right:2%;
+}
+
+.listThing {
+    display: list-item;
+    list-style-type: "♡ -";
+    padding-inline-start: 0.5ch;
+    margin-left:8%;
+}
+
+.picture img {
+    aspect-ratio: 1/1;
+    width:100%;
+    border-radius:5%;
+    border: dashed 2px #fa6dd7e8;
+}
+
+#rightSide {
+    float:right;
+    width:60%;
+}
+
+a.socials:link, a.socials:visited {
+    text-decoration: none;
+    color:white;
+    padding:1%;
+    background:rgb(25, 3, 29);
+    border-radius:15%;
+    font-family:"Castoro", serif;
+    color:white;
+    size:small;
+    display: inline-block;
+    margin-bottom:1%;
+}
+
+.topBar {
+    word-spacing:0.35em;
+    width:100%;
+    float:right;
+    text-align:right;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.topBar img {
+    image-rendering:crisp-edges;
+    margin-bottom:-4%;
+    text-align:right;
+    display: inline-block;
+    margin-right:-10%;
+}

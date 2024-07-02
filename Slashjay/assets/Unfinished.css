@@ -1,0 +1,86 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('https://files.catbox.moe/zs7qis.ttf');}
+@font-face { font-family: Teletactile; src: url('https://files.catbox.moe/c9hngk.ttf');}
+
+/* BACKGROUND */
+
+body {
+background-color: #0d0517;
+/* background-image: url("../images/HappiestDay.gif"); */ background: url("https://files.catbox.moe/s8n9bu.gif");
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 10px;
+/*	background-position: top; */
+background-size: 100%;
+}
+/* BACKGROUND END */
+
+.funkyfresh {
+font-family: 'Teletactile';
+font-size:75px;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+color: #fff467;
+}
+
+.missingText {
+font-family:'Teletactile';
+font-size:30px;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+color:white;
+}
+
+.extraText {
+font-family:'VCRMono';
+font-size:20px;
+text-align:center;
+color:white;
+}
+
+.extraExtraText {
+font-family:'VCRMono';
+font-size:15px;
+text-align:center;
+color:white;
+padding-top:20px;
+}
+
+#missing404 {
+background: #0d0c0ec7;
+border:5px solid #665169fa;
+border-radius:40px 40px 40px 0px;
+max-width:60%;
+min-width:40%;
+margin-top:5%;
+margin-left:auto;
+margin-right:auto;
+padding-top:20px;
+}
+
+.theDoor {
+text-align:left;
+padding-bottom:2px;
+padding-left:2px;
+}
+
+.testie {
+    text-align:right;
+    padding-bottom:2px;
+    padding-left:2px;
+    float:right;
+}
+
+@media (min-device-width: 482px) {
+#mobileView {
+display: none;
+}
+}

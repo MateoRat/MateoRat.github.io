@@ -1,0 +1,167 @@
+#MmainPage {
+    background: #0d0c0ec7;
+    border:5px solid #665169fa;
+    border-radius:0px 0px 0px 5px;
+    width: 85%;
+    margin:auto;
+    margin-top:2%;
+    overflow:hidden;
+}
+
+#Mleft {
+    width:50%;
+    float:left;
+    padding-top:2%;
+    margin-top:1%;
+}
+.Mgay1 {
+    background: linear-gradient(to bottom,  #605870d3,  #453764b6);
+    border:2px solid #f5a7e19c;
+    width:85%;
+    margin:auto;
+    margin-top:0%;
+    margin-bottom:0%;
+    line-height:0%;
+}
+.Mgay2 {
+    background: linear-gradient(to bottom,  #605870d3,  #453764b6);
+    border:2px solid #f5a7e19c;
+    width:100%;
+    margin:0%;
+    overflow:hidden;
+    float:right;
+}
+
+.MvolImage {
+    width:100%;
+    margin:auto;
+}
+
+.Mpages {
+    float:left;
+    padding:2%;
+    width:30%;
+}
+
+#Mright {
+    width:50%;
+    float:right;
+    padding-top:2%;
+    margin-top:1%;
+}
+
+#Mtop {
+height:fit-content;
+margin-bottom:1%;
+padding:0%;
+margin-top:0%;
+margin-left:0%;
+margin-right:0%;
+width:100%;
+overflow:hidden;
+}
+#Mstart {
+float:right;
+background: #2c155075;
+border:2px solid #d4c5ec4b;
+width:80%;
+border-bottom-left-radius:70px;
+padding-left:5%;
+padding-bottom:2%;
+margin-bottom:5%;
+}
+
+a.Mstart:link, a.Mstart:visited {
+float:right;
+background: #2c155075;
+border:2px solid #d4c5ec4b;
+width:80%;
+border-bottom-left-radius:70px;
+padding-left:5%;
+padding-bottom:2%;
+margin-bottom:5%;
+text-decoration:none;
+}
+
+a:link, a:visited {
+text-decoration:none;
+}
+
+#Mfred {
+float:left;
+}
+
+/* (MAIN) TEXT STYLES */
+.MmainText {
+font-family:'DM Sans', sans-serif;
+font-size:large;
+text-align:justify;
+text-align:left;
+color: rgb(239, 238, 247);
+text-decoration: none;
+padding-right:5%;
+padding-left:5%;
+padding-bottom:5%;
+}
+.MpagePart {
+font-family:'Teletactile', sans-serif;
+font-size:large;
+text-align:left;
+color: rgb(239, 238, 247);
+text-decoration: none;
+padding-left:10px;
+padding-bottom:2%;
+}
+.Mfunkyfresh {
+/* font-family: 'Vina Sans', cursive; */
+font-family: 'Teletactile'; /* FORMER: VCRMono */
+font-size:xx-large; /* 55 px original */
+font-stretch:50%;
+text-align:center;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color: #120569;
+/* text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
+text-shadow: 2px 2px 0 #858b97, 4px 4px 0 #272e3ddc;
+color: #fff467;
+padding-top:10px;
+text-decoration: none;
+}
+
+a.MmainLink:link {
+color: #fff467;
+}
+a.MmainLink:visited {
+color: #fff467;
+}
+a.MmainLink:hover, a.MmainText:active {
+color: #f7e548;
+}
+a.MfunkyLink:link, a.MfunkyLink:hover, a.MfunkyLink:visited, a.MfunkyLink:active {
+text-decoration: none;
+color: #fff467;
+}
+
+a.Mplain:link, a.Mplain:hover, a.Mplain:visited, a.Mplain:active {
+text-decoration: none;
+color: rgb(239, 238, 247);
+}
+/* TEXT STYLES END */
+
+
+
+
+@media (max-device-width: 483px) {
+    #desktopView {
+    display: none;
+    }
+    body { 
+        background: url(../images/onthefourth.png) no-repeat center center fixed; 
+        background-color: #0d0517;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        }
+}

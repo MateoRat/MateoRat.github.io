@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('assets/VCR_OSD_MONO_1.001.ttf');}
+@font-face { font-family: Teletactile; src: url('assets/Teletactile-3zavL.ttf');}
+
+@media (min-device-width: 482px) {
+	#mobileView {
+		display: none;
+	}
+	body {
+		background-image: url("images/Background.gif");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 10px;
+	/*	background-position: top; */
+		background-size: 100%;
+        background-position:bottom;
+    }
+}
+
+@media (max-device-width: 483px) {
+	#desktopView {
+		display: none;
+	}
+	body { 
+		background: url("images/Background.gif") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0;
+		padding: 0;
+    }
+}
