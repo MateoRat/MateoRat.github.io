@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face { font-family: VCRMono; src: url('assets/VCR_OSD_MONO_1.001.ttf');}
+@font-face { font-family: Teletactile; src: url('assets/Teletactile-3zavL.ttf');}
+
+body { 
+    background: url("images/ArcadeBckg.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:0%;
+    padding:0%;
+    background-position:bottom center;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.containerMain {
+    background: linear-gradient(to bottom,  #130c1aec,  #06010e);
+    width:80%;
+    padding:3.5%;
+    border: solid 5px #332780;
+    margin:auto;
+    font-family:"DM Sans", serif;
+    color:white;
+    height:fit-content;
+    font-size:0.85em;
+    margin-top:0%;
+}
+
+.containerFoot {
+    background: linear-gradient(to bottom,  #130c1aec,  #06010e);
+    width:70%;
+    padding:3.5%;
+    border: solid 2px #f34ac9fb;
+    margin:auto;
+    font-family:"DM Sans", serif;
+    color:white;
+    height:fit-content;
+    font-size:0.85em;
+    margin-bottom:2%;
+}
+
+.header {
+    font-family:'VCRMono';
+    font-size:2.5em;
+    text-align:center;
+    -webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #120569;
+	text-shadow: 2px 2px 0 #858b97, 4px 4px 0 #272e3ddc;
+	color: #fff467;
+}
+
+.subHeader {
+    font-family:'VCRMono';
+    font-size:1.5em;
+    padding-left:5%;
+    color:white;
+    -webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #8e85c9;
+    padding-top:2%;
+}
+
+.subHeaderFoot {
+    font-family:'VCRMono';
+    font-size:1.3em;
+    padding-left:5%;
+    color:white;
+    -webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: #8e85c9;
+    padding-top:2%;
+}
